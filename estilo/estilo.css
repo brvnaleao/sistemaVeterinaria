@@ -1,0 +1,132 @@
+			.center{
+				display: flex;
+				justify-content: center; 
+				align-items:center;
+		}
+		   .back{
+      	background-color: #9e94d4;
+      	}
+      		.back2{
+      			background-color: #ff914d;
+      		}
+
+      			.back3{
+      			background-color:#ebb37c;
+      		}
+
+
+          #area
+{
+  position:relative;
+ 
+  width:500px;
+  height:370px;
+}
+#area #formulario
+{
+  position:absolute;
+  display:block;   
+}
+fieldset
+{
+  width:300px;
+  height:250px;
+}
+legend
+{
+  font-style:bold;
+  text-align: justify;
+}
+#formulario label
+{
+  position:absolute;
+  left:10px;
+  margin-right:5px;
+}
+ 
+ 
+#formulario input.campo_nome
+{
+  position:absolute;
+  left:150px;
+  top:23px;
+  width:225px;
+}
+#formulario input.campo_email
+{
+  position:absolute;
+  left:150px;
+  margin-top:2px;
+  width:225px;
+}
+#formulario input.campo_telefone
+{
+  position:absolute;
+  left:150px;
+  margin-top:2px;
+  width:225px;
+}
+#formulario input.campo_cachorro
+{
+  position:absolute;
+  left:150px;
+  margin-top:2px;
+  width:225px;
+}
+#formulario input.endereco
+{
+  position:absolute;
+  left:150px;
+  margin-top:2px;
+  width:225px;
+}
+#formulario input.botao{
+  position:absolute;
+   left:200px;
+  margin-top:20px;
+}
+#formulario2 label
+{
+  position:absolute;
+  left:10px;
+  margin-right:5px;
+}
+ 
+ 
+#formulario2 input.campo_nome
+{
+  position:absolute;
+  left:170px;
+  top:23px;
+  width:225px;
+}
+#formulario2 input.campo_email
+{
+  position:absolute;
+  left:170px;
+  margin-top:2px;
+  width:225px;
+}
+
+#formulario2 input.botao{
+  position:absolute;
+   left:210px;
+  margin-top:20px;
+}
+#formulario2 .mensagens{ 
+  position:absolute;
+  left:170px;
+  margin-top:2px;
+  width:225px;
+}
+#area2 {
+  position:relative;
+ 
+  width:450px;
+  height:260px;
+}
+#area #formulario2
+{
+  position:absolute;
+  display:block;   
+}
