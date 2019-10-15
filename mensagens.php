@@ -30,7 +30,7 @@
         Home
       </a>
 
-      <a href="#about"class="navbar-item">
+      <a href="index.php#about" class="navbar-item">
         Sobre
       </a>
 
