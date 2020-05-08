@@ -3,10 +3,8 @@
 
 $mysqli = new mysqli('localhost', 'root', '', 'caomania') or die(mysqli_error($mysqli));
 
-
-
-
 if(isset($_POST['save'])){
+    
     $nome = $_POST['nome'];
     $cachorro = $_POST['cachorro'];
     $email = $_POST['email'];
@@ -23,6 +21,7 @@ if(isset($_POST['save'])){
 } 
 
 if(isset($_POST['save2'])){
+    
     $nome_pessoa = $_POST['nomepessoa'];
     $email_mensagem = $_POST['emailmsg'];
     $mensagem = $_POST['mensagem'];
